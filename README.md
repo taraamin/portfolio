@@ -19,19 +19,5 @@ Standardport er `http://localhost:5173`. Vite tilbyr hot reload slik at tekst og
 - `src/styles/index.css` – Tema, typografi og layout.
 - `public/` – Favicon og rom for eventuelle statiske ressurser.
 
-## Tilpasningstips
 
-- Oppdater `src/data/profile.js` med faktiske kontaktpunkter, tilgjengelighet og en tydelig pitch.
-- Registrer repo-lenker og nøkkelresultater i `src/data/projects.js`. Hver case er satt opp med rolle, teknologier og effekt.
-- `src/data/experience.js` inneholder både erfaring og utdanning; legg til flere roller ved behov.
-- Ønsker du flere seksjoner (for eksempel blogg, sertifiseringer eller referanser), opprett nye komponenter i `src/components/` og koble dem inn i `App.jsx`.
 
-## Videre arbeid
-
-- Sett opp en GitHub Actions-workflow for automatisk bygg og deploy til GitHub Pages, Netlify eller Vercel.
-- Legg til faktiske skjermbilder i prosjektkortene ved å supplere med `<img>` eller bakgrunnsbilder.
-- Knytt kontaktseksjonen til et skjema (for eksempel Formspree eller Netlify Forms) dersom du vil ta imot henvendelser direkte fra siden.
-
-## Lisens
-
-Koden er åpen under MIT-lisens (juster ved behov). Branding, tekst og data tilhører Tara Amin.
